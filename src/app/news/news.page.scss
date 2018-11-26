@@ -1,0 +1,29 @@
+.ttct-news-content {
+    background-color: green;
+    	
+    	.ttct-item {
+    		padding : 10px;
+    		margin : 5px;
+    		background : #eee;
+    		.ttct-item-title {
+	    		padding : 10px;
+	    		margin : 5px;
+	    		background : #eee;
+	    		font-weight : bold;
+    		}
+	    	&.ttct-item:nth-child(odd) {
+			    background: ion-color-secondary;
+			}
+
+			&.ttct-item:nth-child(even) {
+			    background: blue;
+			}
+			.ttct-failed {
+
+			}
+    	}
+    	
+
+		
+    
+}
