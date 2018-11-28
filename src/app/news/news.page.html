@@ -6,6 +6,9 @@
 
 <ion-content class="ttct-news-content">
 
+  <div >
+		<ion-button>refresh</ion-button>
+	</div>
 	<div class="ttct-item" *ngFor="let article of data?.articles" (click)="onGoToNewsSinglePage(article)">
 		<div class="ttct-title">{{article.title}}</div>
 	</div>
