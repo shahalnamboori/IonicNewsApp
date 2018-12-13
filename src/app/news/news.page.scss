@@ -9,14 +9,14 @@
 	    		padding : 10px;
 	    		margin : 5px;
 	    		background : #eee;
-	    		font-weight : bold;
+				font-weight : bold;
     		}
 	    	&.ttct-item:nth-child(odd) {
-			    background: ion-color-secondary;
+			    background: gray;
 			}
 
 			&.ttct-item:nth-child(even) {
-			    background: green;
+			    background: darkgrey;
 			}
 			.ttct-failed {
 
