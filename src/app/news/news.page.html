@@ -5,10 +5,22 @@
 </ion-header>
 
 <ion-content class="ttct-news-content">
-
-  <div >
-		<ion-button>refresh</ion-button>
+	
+  <div padding>
+		<ion-segment [(ngModel)]="pet">
+			<ion-segment-button value="Top News">
+				Top News
+			</ion-segment-button>
+			<ion-segment-button value="Movies">
+				Movies
+			</ion-segment-button>
+			<ion-segment-button value="Sports">
+				Sports
+			</ion-segment-button>
+		</ion-segment>
 	</div>
+
+
 	<div class="ttct-item" *ngFor="let article of data?.articles" (click)="onGoToNewsSinglePage(article)">
 		<div class="ttct-title">{{article.title}}</div>
 	</div>
